@@ -18,8 +18,6 @@
 		A51BCE07282306C500248041 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE06282306C500248041 /* Usuario.swift */; };
 		A51BCE09282306EC00248041 /* Profissionais.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE08282306EC00248041 /* Profissionais.swift */; };
 		A51BCE0B282306FF00248041 /* Consultas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE0A282306FF00248041 /* Consultas.swift */; };
-		A51BCE0D2823084A00248041 /* Sexo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE0C2823084A00248041 /* Sexo.swift */; };
-		A51BCE0F282308F900248041 /* TiposSanguineos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE0E282308F900248041 /* TiposSanguineos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +34,6 @@
 		A51BCE06282306C500248041 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		A51BCE08282306EC00248041 /* Profissionais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profissionais.swift; sourceTree = "<group>"; };
 		A51BCE0A282306FF00248041 /* Consultas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consultas.swift; sourceTree = "<group>"; };
-		A51BCE0C2823084A00248041 /* Sexo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sexo.swift; sourceTree = "<group>"; };
-		A51BCE0E282308F900248041 /* TiposSanguineos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiposSanguineos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +86,6 @@
 				A51BCE06282306C500248041 /* Usuario.swift */,
 				A51BCE08282306EC00248041 /* Profissionais.swift */,
 				A51BCE0A282306FF00248041 /* Consultas.swift */,
-				A51BCE0C2823084A00248041 /* Sexo.swift */,
-				A51BCE0E282308F900248041 /* TiposSanguineos.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,10 +174,8 @@
 				A51BCE07282306C500248041 /* Usuario.swift in Sources */,
 				A51BCE09282306EC00248041 /* Profissionais.swift in Sources */,
 				A51BCDF12821BA7A00248041 /* ViewControllerInicial.swift in Sources */,
-				A51BCE0F282308F900248041 /* TiposSanguineos.swift in Sources */,
 				A51BCDED2821BA7A00248041 /* AppDelegate.swift in Sources */,
 				A51BCE0B282306FF00248041 /* Consultas.swift in Sources */,
-				A51BCE0D2823084A00248041 /* Sexo.swift in Sources */,
 				A51BCDEF2821BA7A00248041 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

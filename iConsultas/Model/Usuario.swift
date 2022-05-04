@@ -11,8 +11,5 @@ import Foundation
 struct Usuario{
     var nome : String
     var dtNascimento : String
-    var sexo : Sexo
-    var tipagem : TiposSanguineos
-    var fator : FatorRH
     var email : String
 }
