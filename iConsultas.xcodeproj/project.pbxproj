@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A51BCDED2821BA7A00248041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDEC2821BA7A00248041 /* AppDelegate.swift */; };
+		A51BCDEF2821BA7A00248041 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDEE2821BA7A00248041 /* SceneDelegate.swift */; };
+		A51BCDF12821BA7A00248041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDF02821BA7A00248041 /* ViewController.swift */; };
+		A51BCDF42821BA7A00248041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51BCDF22821BA7A00248041 /* Main.storyboard */; };
+		A51BCDF72821BA7A00248041 /* iConsultas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A51BCDF52821BA7A00248041 /* iConsultas.xcdatamodeld */; };
+		A51BCDF92821BA7C00248041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51BCDF82821BA7C00248041 /* Assets.xcassets */; };
+		A51BCDFC2821BA7C00248041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51BCDFA2821BA7C00248041 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A51BCDE92821BA7A00248041 /* iConsultas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iConsultas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51BCDEC2821BA7A00248041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A51BCDEE2821BA7A00248041 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A51BCDF02821BA7A00248041 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A51BCDF32821BA7A00248041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A51BCDF62821BA7A00248041 /* iConsultas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iConsultas.xcdatamodel; sourceTree = "<group>"; };
+		A51BCDF82821BA7C00248041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A51BCDFB2821BA7C00248041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A51BCDFD2821BA7C00248041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A51BCDE62821BA7A00248041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A51BCDE02821BA7A00248041 = {
+			isa = PBXGroup;
+			children = (
+				A51BCDEB2821BA7A00248041 /* iConsultas */,
+				A51BCDEA2821BA7A00248041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A51BCDEA2821BA7A00248041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A51BCDE92821BA7A00248041 /* iConsultas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51BCDEB2821BA7A00248041 /* iConsultas */ = {
+			isa = PBXGroup;
+			children = (
+				A51BCDEC2821BA7A00248041 /* AppDelegate.swift */,
+				A51BCE032822E01800248041 /* Model */,
+				A51BCDEE2821BA7A00248041 /* SceneDelegate.swift */,
+				A51BCDF02821BA7A00248041 /* ViewController.swift */,
+				A51BCDF22821BA7A00248041 /* Main.storyboard */,
+				A51BCDF82821BA7C00248041 /* Assets.xcassets */,
+				A51BCDFA2821BA7C00248041 /* LaunchScreen.storyboard */,
+				A51BCDFD2821BA7C00248041 /* Info.plist */,
+				A51BCDF52821BA7A00248041 /* iConsultas.xcdatamodeld */,
+			);
+			path = iConsultas;
+			sourceTree = "<group>";
+		};
+		A51BCE032822E01800248041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A51BCDE82821BA7A00248041 /* iConsultas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51BCE002821BA7C00248041 /* Build configuration list for PBXNativeTarget "iConsultas" */;
+			buildPhases = (
+				A51BCDE52821BA7A00248041 /* Sources */,
+				A51BCDE62821BA7A00248041 /* Frameworks */,
+				A51BCDE72821BA7A00248041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iConsultas;
+			productName = iConsultas;
+			productReference = A51BCDE92821BA7A00248041 /* iConsultas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51BCDE12821BA7A00248041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Eldorado;
+				TargetAttributes = {
+					A51BCDE82821BA7A00248041 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = A51BCDE42821BA7A00248041 /* Build configuration list for PBXProject "iConsultas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A51BCDE02821BA7A00248041;
+			productRefGroup = A51BCDEA2821BA7A00248041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A51BCDE82821BA7A00248041 /* iConsultas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A51BCDE72821BA7A00248041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51BCDFC2821BA7C00248041 /* LaunchScreen.storyboard in Resources */,
+				A51BCDF92821BA7C00248041 /* Assets.xcassets in Resources */,
+				A51BCDF42821BA7A00248041 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A51BCDE52821BA7A00248041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51BCDF72821BA7A00248041 /* iConsultas.xcdatamodeld in Sources */,
+				A51BCDF12821BA7A00248041 /* ViewController.swift in Sources */,
+				A51BCDED2821BA7A00248041 /* AppDelegate.swift in Sources */,
+				A51BCDEF2821BA7A00248041 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A51BCDF22821BA7A00248041 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51BCDF32821BA7A00248041 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A51BCDFA2821BA7C00248041 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51BCDFB2821BA7C00248041 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A51BCDFE2821BA7C00248041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A51BCDFF2821BA7C00248041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A51BCE012821BA7C00248041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iConsultas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = explorations.eldorado.iConsultas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A51BCE022821BA7C00248041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iConsultas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = explorations.eldorado.iConsultas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A51BCDE42821BA7A00248041 /* Build configuration list for PBXProject "iConsultas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51BCDFE2821BA7C00248041 /* Debug */,
+				A51BCDFF2821BA7C00248041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51BCE002821BA7C00248041 /* Build configuration list for PBXNativeTarget "iConsultas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51BCE012821BA7C00248041 /* Debug */,
+				A51BCE022821BA7C00248041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A51BCDF52821BA7A00248041 /* iConsultas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A51BCDF62821BA7A00248041 /* iConsultas.xcdatamodel */,
+			);
+			currentVersion = A51BCDF62821BA7A00248041 /* iConsultas.xcdatamodel */;
+			path = iConsultas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A51BCDE12821BA7A00248041 /* Project object */;
+}
