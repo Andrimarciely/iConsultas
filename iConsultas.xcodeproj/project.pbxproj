@@ -16,8 +16,12 @@
 		A51BCDFC2821BA7C00248041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51BCDFA2821BA7C00248041 /* LaunchScreen.storyboard */; };
 		A51BCE05282306A700248041 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE04282306A700248041 /* Model.swift */; };
 		A51BCE07282306C500248041 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE06282306C500248041 /* Usuario.swift */; };
-		A51BCE09282306EC00248041 /* Profissionais.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE08282306EC00248041 /* Profissionais.swift */; };
-		A51BCE0B282306FF00248041 /* Consultas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE0A282306FF00248041 /* Consultas.swift */; };
+		A51BCE09282306EC00248041 /* Profissional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE08282306EC00248041 /* Profissional.swift */; };
+		A51BCE0B282306FF00248041 /* Consulta.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE0A282306FF00248041 /* Consulta.swift */; };
+		A51BCE1228231D5800248041 /* ViewControllerUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE1128231D5800248041 /* ViewControllerUsuario.swift */; };
+		A51BCE1428236CBF00248041 /* Profissao.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE1328236CBF00248041 /* Profissao.swift */; };
+		A51BCE162823733F00248041 /* AgendaSemanall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE152823733F00248041 /* AgendaSemanall.swift */; };
+		A51BCE18282379ED00248041 /* DiaDaSemana.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BCE17282379ED00248041 /* DiaDaSemana.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +36,12 @@
 		A51BCDFD2821BA7C00248041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A51BCE04282306A700248041 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A51BCE06282306C500248041 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
-		A51BCE08282306EC00248041 /* Profissionais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profissionais.swift; sourceTree = "<group>"; };
-		A51BCE0A282306FF00248041 /* Consultas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consultas.swift; sourceTree = "<group>"; };
+		A51BCE08282306EC00248041 /* Profissional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profissional.swift; sourceTree = "<group>"; };
+		A51BCE0A282306FF00248041 /* Consulta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consulta.swift; sourceTree = "<group>"; };
+		A51BCE1128231D5800248041 /* ViewControllerUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUsuario.swift; sourceTree = "<group>"; };
+		A51BCE1328236CBF00248041 /* Profissao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profissao.swift; sourceTree = "<group>"; };
+		A51BCE152823733F00248041 /* AgendaSemanall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaSemanall.swift; sourceTree = "<group>"; };
+		A51BCE17282379ED00248041 /* DiaDaSemana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaDaSemana.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +92,11 @@
 			children = (
 				A51BCE04282306A700248041 /* Model.swift */,
 				A51BCE06282306C500248041 /* Usuario.swift */,
-				A51BCE08282306EC00248041 /* Profissionais.swift */,
-				A51BCE0A282306FF00248041 /* Consultas.swift */,
+				A51BCE08282306EC00248041 /* Profissional.swift */,
+				A51BCE0A282306FF00248041 /* Consulta.swift */,
+				A51BCE1328236CBF00248041 /* Profissao.swift */,
+				A51BCE152823733F00248041 /* AgendaSemanall.swift */,
+				A51BCE17282379ED00248041 /* DiaDaSemana.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -94,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				A51BCDF02821BA7A00248041 /* ViewControllerInicial.swift */,
+				A51BCE1128231D5800248041 /* ViewControllerUsuario.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,10 +184,14 @@
 				A51BCE05282306A700248041 /* Model.swift in Sources */,
 				A51BCDF72821BA7A00248041 /* iConsultas.xcdatamodeld in Sources */,
 				A51BCE07282306C500248041 /* Usuario.swift in Sources */,
-				A51BCE09282306EC00248041 /* Profissionais.swift in Sources */,
+				A51BCE09282306EC00248041 /* Profissional.swift in Sources */,
+				A51BCE18282379ED00248041 /* DiaDaSemana.swift in Sources */,
 				A51BCDF12821BA7A00248041 /* ViewControllerInicial.swift in Sources */,
+				A51BCE162823733F00248041 /* AgendaSemanall.swift in Sources */,
 				A51BCDED2821BA7A00248041 /* AppDelegate.swift in Sources */,
-				A51BCE0B282306FF00248041 /* Consultas.swift in Sources */,
+				A51BCE1428236CBF00248041 /* Profissao.swift in Sources */,
+				A51BCE1228231D5800248041 /* ViewControllerUsuario.swift in Sources */,
+				A51BCE0B282306FF00248041 /* Consulta.swift in Sources */,
 				A51BCDEF2821BA7A00248041 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
